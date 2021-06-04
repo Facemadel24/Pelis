@@ -1,0 +1,56 @@
+body {
+  background-color: #a3d5d3;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+header {
+  background-image: linear-gradient(top, #ffffff, #a3d5d3);
+  background-image: -moz-linear-gradient(top, #ffffff, #a1bbd3);
+  background-image: -webkit-linear-gradient(top, #ffffff, #a1bbd3);
+  background-image: -o-linear-gradient(top, #ffffff, #a1bbd3);
+  background-image: -ms-linear-gradient(top, #ffffff, #a1bbd3);
+  text-align: center;
+}
+
+#contenedor {
+  display: flex;
+}
+
+video {
+  border: 2px solid black;
+  box-shadow: 0 0 10px #000000;
+  margin: 5px 5px 5px 5px;
+}
+
+.miBoton {
+  background-color: #0B610B;
+  /* background gradient */
+  background-image: linear-gradient(top, #ffffff, #a3d5d3);
+  background-image: -moz-linear-gradient(top, #ffffff, #a3d5d3);
+  background-image: -webkit-linear-gradient(top, #ffffff, #a3d5d3);
+  background-image: -o-linear-gradient(top, #ffffff, #a3d5d3);
+  background-image: -ms-linear-gradient(top, #ffffff, #a3d5d3);
+  border: 1px solid #000000;
+  padding: 2px;
+  border-radius: 4px;
+  width: 80px;
+  margin: 0 1px 5px 5px;
+  box-shadow: 0 0 10px #000000;
+}
+
+#controles {
+  display: flex;
+  justify-content: center;
+  margin: 5px 5px 5px 5px;
+}
+
+button:hover {
+  background-color: #e600e5;
+}
+
+#contenedor {
+  align-items: center;
+  justify-content: center;
+}

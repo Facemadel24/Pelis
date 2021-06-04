@@ -1,0 +1,88 @@
+html{
+	height: 3000px;
+	background-color: #000;
+
+}
+
+
+.banners {
+	width: 97%;
+    height: 250px;
+    margin:10px 15px 0 15px;
+    border: 2px solid #ff00ff;
+    border-radius: 20px;
+    display: flex; 
+}
+
+
+
+.Galeria{
+      width: 98%;
+      height: 150em;
+      border:none;
+      overflow-x: hidden;
+      overflow-y: hidden;
+    }
+
+    .Carrusel{
+      width: 98%;
+      height: 30em;
+      margin: 0px; 
+      border:none;
+      overflow-x: hidden;
+      overflow-y: hidden;
+      position: relative;
+      z-index: 1;
+    }
+
+    .Buscador{
+      width: 98%;
+      height: 25em;
+      margin-top:0px; 
+      border:none;
+      overflow-x: hidden;
+      overflow-y: hidden;
+      position: absolute;
+      z-index: 2;
+    }
+
+   .Entrada{
+      width: 98%;
+      height: 170em;
+      margin: 0px; 
+      border:none;
+      overflow-x: hidden;
+      overflow-y: hidden;
+      position: relative;
+      z-index: 1;
+   }
+   .Reproductor{
+      width: 98%;
+      height: 150em;
+      margin: 0px; 
+      border:none;
+      overflow-x: hidden;
+      overflow-y: hidden;
+      position: relative;
+      z-index: 1;
+   }
+
+
+@media only screen and (max-width: 600px){
+   .banners {
+	width: 97%;
+    height: 150px;
+    margin:10px auto;
+    border: 2px solid #ff00ff;
+    border-radius: 20px;
+    display: flex; 
+}
+
+.Galeria{
+      width: 98%;
+      height: 162em;
+      border:none;
+      overflow-x: hidden;
+      overflow-y: hidden;
+    }
+}

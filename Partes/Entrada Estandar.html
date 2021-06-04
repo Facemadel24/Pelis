@@ -1,0 +1,137 @@
+<html>
+  <head>
+    <title>Entradas Estandar +Pelis</title>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="shortcut icon" href="img-ico/+Pelis.ico"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" type="text/css" href="../CSS/Entradas.css">
+    <link rel="stylesheet" href="../CSS/Reproductor.css">
+    <link rel="stylesheet" href="../CSS/Recomendadas.css">
+
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/27b0ecd6f7.js" crossorigin="anonymous"></script>
+    <script type='text/javascript' src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+
+  </head>
+      <body>
+
+<div class="info">
+    <h1>Dragon Ball Super-Broly (2018)</h1>
+    <br>
+<img class="Portada" src="https://i.ibb.co/Hd5L7Wr/Dragon-Ball-Super-Broly-2018.jpg">
+
+<p><b>Sinopsis:</b>La Tierra disfruta en paz la celebracion de el Torneo del Poder. Sin embargo, Goku es consciente de que existen enemigos aun por descubrir en el Universo, por lo que sigue entrenando sin descanso para alcanzar cotas de poder nunca antes conocidas en un superguerrero. Confirmando sus peores temores, un dia aparece un supersayano que responde al nombre de "Broly", un poderoso guerrero que deberia de haber sido eliminado junto con el planeta Vegeta cuando este fue destruido hace ya algunas decadas. ¿Como ha podido sobrevivir un guerrero de tal poder? La situacion no deja de empeorar cuando el mismisimo Frieza vuelve desde el Infierno para verse envuelto en un terrible mix que llevara a los heroes a luchar por salvar el planeta Tierra una vez mas.</p>
+
+</div>
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+ 
+
+    <div class="row">
+                 <div class="col-md-6">
+                         <div id="tabs">
+                            <ul class="nav">
+                            <li role="presentation"><a href="#tabs-1" id="enlace1">🇲🇽 LAT</a></li>
+                            <li role="presentation"><a href="#tabs-2" id="enlace2">🇪🇸 SUB</a></li>
+                            <li role="presentation"><a href="#tabs-3" id="enlace3"><i id="youtube" class="fab fa-youtube"> TRILLER</i></a></li>
+                        </div>
+                    </div>
+                    </div>
+    
+                </div>
+    </div>
+
+<br>
+
+    <div class="container">
+              
+                    <div class="col-md-2">
+                        <div id="tabs-1">
+                         <iframe   src="https://www.fembed.com/v/3q91mnpg29y"></iframe>
+                        </div>
+    
+                        <div id="tabs-2"><iframe src="https://www.fembed.com/v/3q91mnpg29y"></iframe>
+                        </div>
+    
+    
+                        <div id="tabs-3">
+                            <iframe  src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe>
+                        </div>
+                  
+</body>
+
+<script type="text/javascript">
+    $(document).ready(function(){
+        $('#tabs-1').show();
+        $('#tabs-2').hide();
+        $('#tabs-3').hide();
+
+        $('#enlace1').click(function(){
+            $('#tabs-1').show();
+            $('#tabs-2').hide();
+            $('#tabs-3').hide();
+        });
+
+        $('#enlace2').click(function(){
+            $('#tabs-2').show();
+            $('#tabs-1').hide();
+            $('#tabs-3').hide();
+        });
+
+        $('#enlace3').click(function(){
+            $('#tabs-3').show();
+            $('#tabs-2').hide();
+            $('#tabs-1').hide();
+        });
+    });
+</script>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<!-- partial:index.partial.html -->
+<div class="carousel">
+    <h1>Recomendadas</h1>
+    <div>
+        <ul>
+            <li><a title="#" href="#"><img src="https://i.ibb.co/Jm7TYYn/Zootopia-2016.jpg" title="Zootopia-2016.jpg" /></a></li>
+            <li><a title="#" href="#"><img src="http://placehold.it/350x150" alt="Texto de la imagen 1"/></a></li>
+            <li><a title="#" href="#"><img src="http://placehold.it/350x150" alt="Texto de la imagen 1"/></a></li>
+            <li><a title="#" href="#"><img src="http://placehold.it/350x150" alt="Texto de la imagen 1"/></a></li>
+            <li><a title="#" href="#"><img src="http://placehold.it/350x150" alt="Texto de la imagen 1"/></a></li>
+            <li><a title="#" href="#"><img src="http://placehold.it/350x150" alt="Texto de la imagen 1"/></a></li>
+            <li><a title="#" href="#"><img src="http://placehold.it/350x150" alt="Texto de la imagen 1"/></a></li>
+            <li><a title="#" href="#"><img src="http://placehold.it/350x150" alt="Texto de la imagen 1"/></a></li>
+            <li><a title="#" href="#"><img src="http://placehold.it/350x150" alt="Texto de la imagen 1"/></a></li>
+            <li><a title="#" href="#"><img src="http://placehold.it/350x150" alt="Texto de la imagen 1"/></a></li>
+            
+            
+        </ul>
+    </div>
+    <ol>
+        <li class="prev"><button type="button" title="Ver anteriores" value="prev"><span>Anteriores</span></button></li>
+        <li class="next"><button type="button" title="Ver siguientes" value="next"><span>Siguiente</span></button></li>
+    </ol>
+</div>
+<!-- partial -->
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.0/jquery-ui.min.js'></script><script  src="../JS/Carrusel.js"></script>
+
+
+ </body> 
+             
+</html>

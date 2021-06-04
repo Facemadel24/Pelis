@@ -1,0 +1,127 @@
+body{
+  height: 100em;
+}
+#container {
+  margin: auto;
+  background-color: #999999;
+}
+.filters{
+  width: 98%;
+	margin:0 auto;
+}
+.filters li{
+	margin: 0 0 15px 0;
+	list-style: none;
+	display: inline-flex;
+}
+.filters li a {
+  padding: 10px;
+  background-image: url(../img-ico/Accion.jpg);
+  color: #fff;
+  border-radius: 40px;
+  border-style: groove ;
+  text-decoration: none;
+  font-size: 24px;
+  text-align: center;
+  cursor:pointer;
+}
+
+
+
+.filters li a:hover{
+     background:;
+     transform:60s;
+}
+
+
+.grid-item {
+  display: inline-block;
+  width: 200px;
+  height: 250px;
+  margin: 5px;
+  border-radius: 20px;
+  overflow: hidden;
+  text-align: center;
+  transition: transform .1s;
+  }
+
+  .grid-item:hover {
+    transform: scale(1.1); 
+}
+
+img{
+    width: 200px;
+    height: 250px; 
+}
+ 
+.isotope-pager{
+	margin: 50px 0 0 500px;
+
+}
+.isotope-pager .pager {
+  width: 100px;
+  height: 100px;
+  margin:0 0 0 10px;
+  padding: 8px;
+  background-color:#461D70;
+  color: #fff;
+  display: inline;
+  text-decoration: none;
+  border-radius:50px;
+  font-size: 25px;
+}
+
+
+
+
+
+@media only screen and (max-width: 700px){
+
+.filters li a {
+  padding: 5px;
+ }
+
+.grid-item {
+  display: inline-block;
+  width: 100px;
+  height: 150px;
+  margin: 5px;
+  border-radius: 20px;
+
+  text-align: center;
+  transition: transform .1s;
+  }
+
+    .grid-item:hover {
+    transform: scale(1.1); 
+}
+
+img{
+    width: 100px;
+    height: 150px;
+}
+
+.isotope-pager{
+  margin: 100px 0 0 5px;
+
+}
+.isotope-pager .pager {
+  width: 100%;
+  height: 100px;
+  margin:0 0 0 10px;
+  padding: 8px;
+  background-color:#461D70;
+  color: #fff;
+  display: inline;
+  text-decoration: none;
+  border-radius:50px;
+  font-size: 25px;
+}
+
+.isotope-pager .pager:hover{
+  background-color: 
+}
+
+
+
+}
