@@ -1,0 +1,72 @@
+body{
+
+  width: 98%;
+
+}    
+     /*ESTILO DE LAS ENTRADAS*/
+
+          /* Descripcion*/ 
+.info{
+  width: 98%;
+  border-radius: 30px;
+  background-color: ;
+}
+
+.Portada{
+  width: 30%;
+  height: auto;
+  border: solid 2px;
+  border-color: #A53301;
+  margin:auto 35%;
+  position: center;
+}
+
+h1{
+  margin: 0px auto;
+  text-align: center; 
+}
+
+
+.info h1{
+  width: 40%;
+  font-size: 35px;
+  color:#A53301;
+}
+
+.info p{
+  width: 30%
+  font-size: 35px;
+  padding: 0 0 0 50px;
+  color:#AAB7B8;
+}
+
+.info b{
+  font-size:35px;
+}
+
+@media only screen and (max-width: 600px){
+
+
+h1{
+  margin: 0px auto;
+  text-align: center; 
+}
+
+
+.info h1{
+  width: 60%;
+  font-size: 25px;
+  color:#A53301;
+}
+
+.Portada{
+  width: 65%;
+  height: 300px;
+  border: solid 2px;
+  border-color: #A53301;
+  margin:auto 20%;
+  position: center;
+}
+
+
+}
