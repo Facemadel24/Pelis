@@ -1,7 +1,3 @@
-body{
-    background-color: #000;
-}
-
 #loading-wrapper {
  background-image: radial-gradient(circle, #5b1b64 ,  #1f071e);
   position: fixed;
