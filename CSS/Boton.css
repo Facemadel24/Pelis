@@ -1,0 +1,16 @@
+/*Flecha para hacer la pagina hacia arriba*/
+.ir-arriba{
+  display:none;
+  background-repeat:no-repeat;
+  font-size:30px;
+  color:#451250;
+  cursor:pointer;
+  position:fixed;
+  bottom:10px;
+  right:10px;
+  z-index:2;
+}
+
+.ir-arriba: hover {
+  color: #FF00FFFF;
+}
