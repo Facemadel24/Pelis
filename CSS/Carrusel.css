@@ -1,0 +1,110 @@
+.carousel {
+  position: relative;
+  width: 100%;
+}
+.carousel div {
+  overflow: hidden;
+  width: 100%;
+}
+.carousel div ul {
+  overflow: hidden;
+  position: relative;
+  width: 200%;
+}
+.carousel div ul li {
+  overflow: hidden;
+  position: relative;
+  float: left;
+  width: 310px;
+}
+.carousel div ul li a{
+   width: 300px;
+   height: 400px;
+}
+
+.carousel div ul li img {
+  width: 300px;
+  height: 400px;
+  border: solid 1px;
+  border-radius: 20px;
+  border-color: #451250;
+
+}
+.carousel div ul li + li {
+  margin-left: 0px;
+}
+.carousel ol li {
+  position: absolute;
+  top: 50%;
+  margin-top: 25px;
+  list-style: none;
+}
+.carousel ol li.prev {
+  left: 0;
+  text-decoration: none;
+  margin-top: -50px;
+}
+.carousel ol li.prev button:after {
+  content: '\276e';
+  font-size: 50px;
+  margin-top:15px;
+
+}
+.carousel ol li.next {
+  right: 0;
+  text-decoration: none;
+  margin-top: -50px;
+}
+.carousel ol li.next button:after {
+  content: '\276f';
+  font-size: 50px;
+  margin-top:15px;
+}
+.carousel ol li button {
+  overflow: hidden;
+  position: relative;
+  width: 50px;
+  height: 100px;
+  border:solid 3px #451250;
+  background-color: rgba(255, 255, 255, 0.5);
+  text-decoration: none;
+}
+.carousel ol li button span {
+  position: absolute;
+  top: -100000px;
+}
+.carousel ol li button:after {
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: block;
+  width: 50px;
+  line-height: 50px;
+  text-align: center;
+  font-size: 30px;
+  color: #451250;
+}
+
+
+@media only screen and (max-width: 600px){
+  .carousel div ul li a{
+   width: 200px;
+   height: 200px;
+}
+
+.carousel div ul li img {
+  width: 200px;
+  height: 250px;
+  border: solid 1px;
+  border-radius: 20px;
+
+}
+
+.carousel div ul li {
+  overflow: hidden;
+  position: relative;
+  float: left;
+  width: 210px;
+}
+  
+  }
