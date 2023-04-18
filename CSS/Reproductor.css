@@ -1,0 +1,98 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700);
+
+body{
+	font-family:'Open Sans',sans-serif;
+	margin:0;
+	padding:0;
+	position:relative;
+	line-height:normal;
+	background:#000;
+}
+
+#main{
+	max-width:1000px;
+	margin:5% auto 0;
+	padding-bottom:3%;
+}
+
+#main p{
+	color:334;
+	margin:5%;
+}
+
+#multitab-video{
+	position:relative;
+	box-sizing:border-box;
+	margin:0 auto;
+	line-height:2em;
+	font-size:15px!important;
+	width:100%;
+}
+
+#multitab-video #movie-player{
+	position:relative;
+	padding-bottom:56.25%;
+	padding-top:1.66666666666667em;
+	height:0;
+}
+
+#multitab-video #movie-player iframe{
+	position:absolute;
+	top:0;
+	left:0;
+	margin: 0 300px 0 0; 
+	width:105%;
+	height:80%;
+	border:2px solid #ff00ff;
+	border-radius: 5px;
+	overflow: hidden;
+}
+
+
+#multitab-video #server-list{
+	position:relative;
+	background:;
+	display:block;
+}
+
+#multitab-video #server-list .server-item:before{
+	content:attr(title);
+	width:10em;
+	display:inline-block;
+	padding-left:1em;
+}
+
+.server-item{
+	border-bottom:1px solid #451250;
+}
+
+#multitab-video #server-list a{ 
+	color:#fff;
+	background: #451250;
+	text-decoration:none;
+	border:2px solid #ff00ff;
+	border-radius: 5px;
+	padding:0.2em 0.6em;
+	display:inline-block;
+	margin:0.3em;
+	box-sizing:border-box;
+}
+
+#multitab-video #server-list .enlace{
+  color:#fff;
+	background: #111 ;
+	text-decoration:none;
+	border:2px solid #111;
+}
+
+a:active{
+	background-color:#ff00ff;
+}
+
+.icon-reproductor{
+  width: 20px;
+  height: 20px;
+  padding: 0px;
+  margin: 0px;
+  vertical-align: text-top;
+}
