@@ -1,0 +1,92 @@
+       /*ESTILO DE LAS ENTRADAS*/
+
+          /* Descripcion*/ 
+.info{
+  width: 98%;
+  margin-top: 87px;
+  border-radius: 30px;
+  background-color: ;
+}
+
+.Portada{
+  width: 70%;
+  height: auto;
+  border: solid 2px;
+  border-color: #ff00ff;
+  margin:auto 15%;
+  position: center;
+}
+
+.info p{
+  width: 90%;
+  font-size: 25px;
+  padding: 0px;
+  margin: 5% auto;
+  color:#AAB7B8;
+  text-align: center;
+}
+
+.info b{
+  font-size:35px;
+}
+
+
+@media only screen and (max-width: 600px){
+
+
+h1{
+  margin: 0px auto;
+  text-align: center; 
+}
+
+
+.info h1{
+  width: 60%;
+  font-size: 25px;
+  color:#A53301;
+}
+
+.Portada{
+  width: 65%;
+  height: 300px;
+  border: solid 2px;
+  border-color: #ff00ff;
+  margin:auto 20%;
+  position: center;
+}
+@media only screen and (max-width: 650px){
+.Portada{
+  width: 90%;
+  height: auto;
+  border: solid 2px;
+  border-color: #ff00ff;
+  margin:auto 5%;
+  position: center;
+}
+}
+
+@media only screen and (max-width: 500px){
+.Portada{
+  width: 90%;
+  height: auto;
+  border: solid 2px;
+  border-color: #ff00ff;
+  margin:auto 5%;
+  position: center;
+}
+}
+
+@media only screen and (max-width: 370px){
+.Portada{
+  width: 90%;
+  height: auto;
+  border: solid 2px;
+  border-color: #ff00ff;
+  margin:auto 5%;
+  position: center;
+}
+
+}
+}
+
+}
